@@ -1,0 +1,26 @@
+.app {
+  text-align: center;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  min-height: 90vh;
+  padding-top: 50px;
+  background-color: #F5F5F5;
+
+  .app_container {
+    display: inline-flex;
+    flex-direction: column;
+    width: 80%;
+    // max-width: 600px;
+
+    .title {
+      font-size: 42px;
+      font-weight: 600;
+    }
+
+    .completed_tasks {
+      display: flex;
+      margin-top: 1rem;
+    }
+  }
+}
